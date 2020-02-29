@@ -774,7 +774,7 @@ h1, h2, h3, h4, h5, h6, p{
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 660px) and (max-width: 768px){
     #dropdown-icon1 .dropdown-toggle::after,
     #dropdown-icon2 .dropdown-toggle::after,
     #dropdown-icon3 .dropdown-toggle::after{
