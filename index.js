@@ -79,12 +79,8 @@ $(function(){
       });
  
 
-      $('.trusted-party').slick({
-        prevArrow: '.arrow-prev',
-        nextArrow: '.arrow-next',
+      $('.trusted-party-img').slick({
         dots: false,
-        centerMode:false,
-        centerPadding:'60px',
         infinite: true,
         speed: 300,
         arrows:true,
@@ -94,9 +90,7 @@ $(function(){
           {
             breakpoint: 1600,
             settings: {
-              slidesToShow: 4,
-              centerMode:false,
-              centerPadding:'60px',
+              slidesToShow: 5,
               slidesToScroll: 1,
               infinite: true,
               dots: false,
@@ -107,10 +101,8 @@ $(function(){
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1, 
-              centerMode:false,
-              centerPadding:'60px',
+              slidesToShow: 4,
+              slidesToScroll: 1,
               dots: false,
               autoPlay:true,
               autoplaySpeed:2000,
@@ -119,10 +111,8 @@ $(function(){
           {
             breakpoint: 900,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 3,
               slidesToScroll: 1,
-              centerMode:false,
-              centerPadding:'60px',
               dots: false,
               autoPlay:true,
               autoplaySpeed:2000,
@@ -133,8 +123,6 @@ $(function(){
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,
-              centerMode:false,
-              centerPadding:'60px',
               dots: false,
               autoPlay:true,
               autoplaySpeed:1000,
@@ -145,8 +133,6 @@ $(function(){
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              centerMode:false,
-              centerPadding:'60px',
               dots: false,
               autoPlay:true,
               autoplaySpeed:1000,
@@ -157,8 +143,6 @@ $(function(){
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              centerMode:false,
-              centerPadding:'60px',
               dots: false,
               autoPlay:true,
               autoplaySpeed:500,
@@ -181,5 +165,10 @@ $(function(){
         nextArrow: '.next',
       });
       
+      $('.card-img').slick({
+        autoPlay:true,
+        autoplaySpeed:2000,
+        speed: 300,
+      });
 
 });	
