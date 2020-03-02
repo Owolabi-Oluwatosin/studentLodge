@@ -169,6 +169,7 @@ $(function(){
         autoPlay:true,
         autoplaySpeed:2000,
         speed: 300,
+        arrows:false,
       });
 
 });	
