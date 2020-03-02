@@ -83,7 +83,7 @@ $(function(){
         dots: false,
         infinite: true,
         speed: 300,
-        arrows:true,
+        arrows:false,
         autoPlay:true,
         autoplaySpeed:2000,
         responsive: [
